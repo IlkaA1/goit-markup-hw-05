@@ -57,7 +57,31 @@
           <h1 class="herou-text">Ефективні рішення для <br> вашого бізнесу</br></h1>
           <button class="button" type="button" data-modal-open>Замовити послугу</button>
           <div class="backdrop is-hidden" data-modal>
-          <div class="modal"><button type="button"  class="close-modal" data-modal-close><svg class="close-svg" width="18" height="18"><use href="./images/symbol-defs.svg#icon-close"></use></svg></button></div>
+          <div class="modal">
+            <button type="button"  class="close-modal" data-modal-close><svg class="close-svg" width="18" height="18"><use href="./images/symbol-defs.svg#icon-close"></use></svg></button>
+            <h2 class="titile-modal">Залиште свої дані, ми вам передзвонимо</h2>
+            
+            <form action="" class="form">
+              <div class="form-filed">
+            <label for="name">Ім'я</label>
+            <input type="text" name="name" id="name"/></div>
+            
+            <div class="form-filed"><label for="tel">Телефон</label>
+            <input type="tel" name="tel" id="tel"/></div>
+            
+            <div class="form-filed"><label for="email">Пошта</label>
+            <input type="email" name="email" id="email"/></div>
+
+              
+            
+            <div class="form-filed"><label for="comment">Коментар</label>
+            <textarea class="comment" name="comment" id="comment"  rows="10" placeholder="Введіть текст"></textarea></div>
+            
+            <div class="accept"><input type="checkbox" name="accept" value="accept" id="accept">
+            <label  for="accept">Погоджуюся з розсилкою та приймаю  <a class="a-accept">Умови договору</a> </label></div>
+            <button class="button"  type="submit">Відправити</button>
+           </form>
+           </div>
         </div>
         </div>
         
@@ -261,6 +285,18 @@
                 <li class="footer-icon"><a href="#icon-facebook" class="icon icon-footer"><svg class="social" width="20" height="20"><use href="./images/symbol-defs.svg#icon-facebook"></use></svg></a></li>
                 <li class="footer-icon"><a href="#icon-linkedin" class="icon icon-footer"><svg class="social" width="20" height="20"><use href="./images/symbol-defs.svg#icon-linkedin"></use></svg></a></li>
                 </ul>
+
+         </div>
+         <div class="right-footer">
+          <h2 class="welcome">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h2>
+          <form action="" class="email-footer">
+            <input type="email-footer" name="email-footer" id="email-footer"
+            placeholder="E-mail"/>
+            <button class="button"  type="submit">Підписатися<svg class="icon-send" width="24" height="24"><use href="./images/icons.svg#icon-icon-send"></use></svg></button>
+
+          </form>
+  
+  
 
          </div>
       </div>
